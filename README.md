@@ -1,6 +1,6 @@
-# tracerun README
+# js README
 
-This is the README for your extension "tracerun". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "Trace Run". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 
