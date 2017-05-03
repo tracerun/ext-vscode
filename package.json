@@ -4,6 +4,8 @@
   "description": "Trace Run",
   "version": "0.0.1",
   "publisher": "drkaka",
+  "author": "drkaka <drkaka@drkaka.com> (https://www.drkaka.com/)",
+  "license": "Apache-2.0",
   "engines": {
     "vscode": "^1.11.0"
   },
@@ -11,7 +13,7 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:extension.sayHello"
+    "*"
   ],
   "main": "./extension",
   "contributes": {
