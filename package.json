@@ -18,8 +18,11 @@
   "main": "./extension",
   "contributes": {
     "commands": [{
-      "command": "extension.sayHello",
-      "title": "Hello World"
+      "command": "extension.tracerun.targets",
+      "title": "TraceRun: Get Targets"
+    }, {
+      "command": "extension.tracerun.slots",
+      "title": "TraceRun: Get Slots"
     }]
   },
   "scripts": {
@@ -30,5 +33,9 @@
     "vscode": "^1.0.0",
     "mocha": "^2.3.3",
     "eslint": "^3.6.0"
+  },
+  "dependencies": {
+    "moment": "^2.18.1",
+    "tracerun-cli": "^0.0.3"
   }
 }
